@@ -9,7 +9,7 @@ Installation
 
 Clone this library:
 
-``` $ sudo pip install multimerchant ```
+`` $ sudo pip install multimerchant ``
 
 Then to verify it's working:
 
