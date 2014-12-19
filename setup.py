@@ -65,6 +65,7 @@ setup(
     install_requires=[
         'base58==0.2.1',
         'ecdsa==0.11',
-        'six>=1.8.0'
+        'six>=1.8.0',
+        'block-io>=1.1.2'
     ],
 )
