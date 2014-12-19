@@ -80,7 +80,7 @@ time.sleep(2) # let the transaction propagate on the network for a bit
 
 # so far so good. Let's sweep the coins out of the first child, and into the second child
 # NOTE: While you can specify the number of confirmations required for coins to be swept, 
-# please beware that deposits from green addresses will show as available get_address_balance calls.
+# please beware that deposits from green addresses will show as available in get_address_balance calls.
 # This might cause confusion when the sweep_from_address call returns an error when sweeping amounts with
 # confirmations > 0
 
