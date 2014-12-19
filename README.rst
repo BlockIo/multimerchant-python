@@ -9,11 +9,7 @@ Installation
 
 Clone this library:
 
-``` $ git clone https://github.com/blockio/multimerchant-python.git ```
-
-Install it:
-
-``` $ sudo python setup.py install ```
+``` $ sudo pip install multimerchant ```
 
 Then to verify it's working:
 
