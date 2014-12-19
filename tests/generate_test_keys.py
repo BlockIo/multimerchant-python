@@ -1,9 +1,9 @@
-"""Generate a JSON dump of keys for validating bitmerchant.wallet.keys.
+"""Generate a JSON dump of keys for validating multimerchant.wallet.keys.
 
 First install bitcoind and run
 
 $ touch fakewallet.dat
-$ bitcoind --rpcuser=bitcoinrpc --rpcpassword=bitmerchanttest --server --wallet=fakewallet.dat
+$ bitcoind --rpcuser=bitcoinrpc --rpcpassword=multimerchanttest --server --wallet=fakewallet.dat
 $ python generate_test_keys.py -o test_keys.json
 """
 import argparse
@@ -13,7 +13,7 @@ import pyjsonrpc
 client = pyjsonrpc.HttpClient(
     'http://localhost:8332',
     username='bitcoinrpc',
-    password='bitmerchanttest')
+    password='multimerchanttest')
 
 
 def get_new_address():

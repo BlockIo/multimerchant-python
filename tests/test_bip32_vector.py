@@ -1,9 +1,9 @@
 import json
 from unittest import TestCase
 
-from bitmerchant.network import BitcoinMainNet
-from bitmerchant.wallet import Wallet
-from bitmerchant.wallet.utils import ensure_bytes
+from multimerchant.network import BitcoinMainNet
+from multimerchant.wallet import Wallet
+from multimerchant.wallet.utils import ensure_bytes
 
 
 class TestBIP32(TestCase):

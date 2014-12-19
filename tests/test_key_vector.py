@@ -2,9 +2,9 @@ import json
 
 from unittest import TestCase
 
-from bitmerchant.network import BitcoinMainNet
-from bitmerchant.wallet.keys import PrivateKey
-from bitmerchant.wallet.keys import PublicKey
+from multimerchant.network import BitcoinMainNet
+from multimerchant.wallet.keys import PrivateKey
+from multimerchant.wallet.keys import PublicKey
 
 
 class TestKeys(TestCase):
