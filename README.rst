@@ -7,10 +7,11 @@ Multimerchant
 Installation
 ============
 
-Clone this library:
+Install this library:
 
-.. code-block::
+.. code-block:: python
    $ sudo pip install multimerchant
+
 
 Then to verify it's working:
 
