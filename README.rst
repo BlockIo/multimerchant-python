@@ -13,7 +13,7 @@ Installation
 
 Clone this library:
 
-``` $ git clone https://github.com/blockio/multimerchant.git ```
+``` $ git clone https://github.com/blockio/multimerchant-python.git ```
 
 Install it:
 
