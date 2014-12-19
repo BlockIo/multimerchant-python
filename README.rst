@@ -1,10 +1,6 @@
 
-Multimerchant, a fork of Bitmerchant
+Multimerchant
 ===========
-
-Multimerchant currently supports:
-
-.. _BIP32: https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki
 
 --------------
 
