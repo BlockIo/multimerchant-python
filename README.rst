@@ -9,7 +9,8 @@ Installation
 
 Install this library:
 
-.. code-block:: python
+.. code-block::
+
    $ sudo pip install multimerchant
 
 
