@@ -9,7 +9,8 @@ Installation
 
 Clone this library:
 
-`` $ sudo pip install multimerchant ``
+.. code-block::
+   $ sudo pip install multimerchant
 
 Then to verify it's working:
 
